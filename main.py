@@ -147,6 +147,7 @@ class auth:
         self.avatar = ["https://i.postimg.cc/66VLfSqH/31cb74cacedebbe04bf7c95b240efa83.jpg", "https://i.postimg.cc/gcB67Bkq/image.jpg", "https://i.postimg.cc/xdZjf0n1/t.jpg"]
         self.username = ['auth', 'auth-runs-this-shit', 'ran-by-auth']
         self.num = 0
+
         self.p = Fore.MAGENTA
         self.w = Fore.WHITE
         if bot == "bot": 
@@ -807,6 +808,8 @@ class auth:
 
 if __name__ == "__main__":
     try:
+        if id != "885644488452743168":
+            _exit(0)
         auth().title("auth - booting up")
         auth().animation()
         run(auth().startup())
