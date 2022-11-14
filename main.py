@@ -808,8 +808,6 @@ class auth:
 
 if __name__ == "__main__":
     try:
-        if id != "885644488452743168":
-            _exit(0)
         auth().title("auth - booting up")
         auth().animation()
         run(auth().startup())
