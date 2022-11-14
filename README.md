@@ -1,4 +1,4 @@
-# auth
+
 
 ## about
 auth is a extremely fast discord nuker made in python 
